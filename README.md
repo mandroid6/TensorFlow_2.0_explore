@@ -1,4 +1,4 @@
-##Checking out new features of TF 2.0
+## Checking out new features of TF 2.0
 
 Important Links to review TF 2.0 style of model building:
 
