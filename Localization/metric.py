@@ -18,7 +18,7 @@ def iou(boxA, boxB):
   yB = tf.minimum(boxA[:, 3], boxB[:, 3])
 
   # compute the area of intersection rectangle
-  interArea = tf.maximum(0, xB - xA + 1) * tf.maximum(0, yB - yA + 1)
+  interArea = tf.maximum(0., xB - xA + 1) * tf.maximum(0., yB - yA + 1)
 
   # compute the area of both the prediction and ground-truth
   # rectangles
