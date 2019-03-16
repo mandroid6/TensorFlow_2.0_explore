@@ -12,7 +12,7 @@ import matplotlib.pyplot as plt
 def get_bb(file):
   
   #parse the annotations
-  path = f'annotations/xmls/{file}'
+  path = f'data/annotations/xmls/{file}'
   tree = ET.parse(path)
   root = tree.getroot()
   
@@ -29,10 +29,10 @@ def get_bb(file):
   
 def draw_bb(file):
   #draw the bounding box
-  img_path = f'images/{file[:-4]}.jpg'
+  img_path = f'data/images/{file[:-4]}.jpg'
   img = cv2.imread(img_path)
   
-  (xmin, ymin), (xmax, ymax) = getBB(file)
+  (xmin, ymin), (xmax, ymax) = get_bb(file)
 
   
   annotated = cv2.rectangle(img, (xmin, ymin), (xmax, ymax), (0,255,0), 2)
