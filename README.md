@@ -9,3 +9,6 @@ Important Links to review TF 2.0 style of model building:
 - [Training and Evaluation with TensorFlow Keras](https://colab.research.google.com/github/tensorflow/docs/blob/master/site/en/r2/guide/keras/training_and_evaluation.ipynb#scrollTo=zOSK2IBG6-9Z)
 - [Keras Crash Course](https://t.co/fYWWpno2g0)
 - [TensorFlow 2.0 Tutorials Official](https://github.com/tensorflow/docs/tree/master/site/en/r2/tutorials)
+
+
+My own implementations:
